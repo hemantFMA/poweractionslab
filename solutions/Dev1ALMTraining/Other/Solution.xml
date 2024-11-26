@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.2.24111.198" SolutionPackageVersion="9.2" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OrganizationVersion="9.2.24111.198" OrganizationSchemaType="Full" CRMServerServiceabilityVersion="9.2.24111.00198">
+  <SolutionManifest>
+    <UniqueName>Dev1ALMTraining</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Dev1ALMTraining" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions />
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>ARD</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="ARD" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>ard</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10001</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="0" />
+      <RootComponent type="60" id="{15915835-b87c-49ec-9ffc-bfac3ac44ef1}" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="1" schemaName="adx_invitation" displayName="Invitation" solution="PowerPages_RuntimeCore (1.0.2407.1)">
+          <package>PowerPages_Core (1.0.2409.121)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_accountkpiitem" displayName="Account KPI Item" solution="RelationshipAnalytics (9.0.24104.10002)">
+          <package>msdynce_SalesInsightsAnchor (9.0.24104.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_actual" displayName="Actual" solution="MicrosoftDynamicsScheduling (3.12.0.448)">
+          <package>msdynce_CoreServiceSchedulingAnchor (9.0.24104.2001)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_aicontactsuggestion" displayName="Teams Contact Suggestion by AI" solution="msdyn_Collaboration (9.1.24064.10008)">
+          <package>msdynce_OfficeProductivityAnchor (9.0.24104.10003)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_conversationparticipantinsights" displayName="Conversation Participant Insights" solution="msdyn_Conversation_Intelligence (9.0.1.1294)">
+          <package>msdyn_SalesConversationIntelligenceAnchor (9.0.1.1294)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_customerasset" displayName="Customer Asset" solution="msdyn_AssetCommon (1.0.50.1)">
+          <package>msdynce_ServiceAnchor (9.0.24104.1004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_dailyaccountkpiitem" displayName="Daily Kpis for account" solution="RelationshipAnalytics (9.0.24104.10002)">
+          <package>msdynce_SalesInsightsAnchor (9.0.24104.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_iotdevice" displayName="IoT Device" solution="IoTConnector (1.8.53.0)">
+          <package>msdynce_ServiceAnchor (9.0.24104.1004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_liveconversation" displayName="Ongoing conversation (Deprecated)" solution="OmnichannelBase (1.10.0.84)">
+          <package>UnifiedRoutingPrimeAnchor (1.5.26.151)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_mostcontacted" displayName="Most Contacted" solution="RelationshipAnalytics (9.0.24104.10002)">
+          <package>msdynce_SalesInsightsAnchor (9.0.24104.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_mostcontactedby" displayName="Most Contacted By" solution="RelationshipAnalytics (9.0.24104.10002)">
+          <package>msdynce_SalesInsightsAnchor (9.0.24104.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_ocliveworkitem" displayName="Conversation" solution="OmnichannelBase (1.10.0.84)">
+          <package>UnifiedRoutingPrimeAnchor (1.5.26.151)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_ocvoicemail" displayName="Voicemail" solution="OmnichannelTelephony (1.10.0.171)">
+          <package>OmnichannelPrimeTelephony (1.5.26.338)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_orgchartnode" displayName="Microsoft Orgchart node entity" solution="msdyn_LinkedInExtensions (9.0.24105.10016)">
+          <package>msdyn_SalesIntegrationsAddOns (9.0.24111.10002)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_preferredagent" displayName="Preferred Agent" solution="UnifiedRouting (1.0.0.5277)">
+          <package>UnifiedRoutingPrimeAnchor (1.5.26.151)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_sabackupdiagnostic" displayName="sabackupdiagnostic" solution="msdyn_segment (9.1.2411.1002)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.24111.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salesaccelerationinsight" displayName="Sales acceleration insights" solution="msdyn_acceleratedsales (9.1.24111.10004)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.24111.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salescopilotinsight" displayName="Sales Copilot Insight" solution="msdyn_SalesCopilot (9.1.24102.10003)">
+          <package>msdynce_SalesAnchor (9.0.24104.10008)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salesroutingdiagnostic" displayName="salesroutingdiagnostic" solution="msdyn_segment (9.1.2411.1002)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.24111.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salesroutingrun" displayName="Sales routing run" solution="msdyn_SalesRouting (9.1.2411.1002)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.24111.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_salessuggestion" displayName="Insight" solution="msdyn_acceleratedsales (9.1.24111.10004)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.24111.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_sequencetarget" displayName="Sequence Target" solution="msdyn_Sequence (9.1.24104.10001)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.24111.10004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_swarm" displayName="Swarm" solution="msdyn_Swarming (9.0.24104.1031)">
+          <package>msdyn_ServiceExtendedAnchor (9.0.24102.1018)</package>
+          <package>msdyn_ServiceExtendedAnchor (9.0.24102.1020)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="1" schemaName="msdyn_warranty" displayName="Warranty" solution="msdyn_AssetCommon (1.0.50.1)">
+          <package>msdynce_ServiceAnchor (9.0.24104.1004)</package>
+        </Required>
+        <Dependent type="1" schemaName="account" displayName="Account" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="defaultpricelevelid" displayName="Price List" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_ProductManagement (9.0.4.0066)">
+          <package>msdynce_ProductManagementAnchor (9.0.24104.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Account" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="msdyn_name" displayName="Segment name" parentSchemaName="msdyn_segment" parentDisplayName="Segment" solution="msdyn_segment (9.1.2411.1002)">
+          <package>msdyn_AcceleratedSalesAnchor (9.1.24111.10004)</package>
+        </Required>
+        <Dependent type="10" schemaName="msdyn_msdyn_segment_account" displayName="msdyn_msdyn_segment_account" parentSchemaName="msdyn_segment" parentDisplayName="Segment" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="originatingleadid" displayName="Originating Lead" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_LeadManagement (9.0.4.0066)">
+          <package>msdynce_LeadManagementAnchor (9.0.24111.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Account" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="account" parentDisplayName="Account" solution="msdynce_Sales (9.0.4.0076)">
+          <package>msdynce_SalesAnchor (9.0.24104.10008)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Account" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="60" displayName="Information" parentDisplayName="Account" solution="msdynce_AppCommon (9.0.4.0066)" id="{b053a39a-041a-4356-acef-ddf00182762b}">
+          <package>msdynce_AppCommonAnchor (9.0.24111.10001)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Account" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/ActivityFeeds.Form.js" displayName="msdyn_/ActivityFeeds.Form.js" solution="ActivityFeedsCore (9.0.0.0011)">
+          <package>ActivityFeedsCore (9.0.0.0011)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Account" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required type="61" schemaName="msdyn_/RecordWall.htm" displayName="msdyn_/RecordWall.htm" solution="ActivityFeedsCore (9.0.0.0011)">
+          <package>ActivityFeedsCore (9.0.0.0011)</package>
+        </Required>
+        <Dependent type="60" displayName="Information" parentDisplayName="Account" id="{b053a39a-041a-4356-acef-ddf00182762b}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>
